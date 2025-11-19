@@ -1,13 +1,45 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.pyc
 build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
 # Virtual environments
 .venv
-.sqlite3
+venv/
+ENV/
+env/
+
+# Database
+*.sqlite3
+*.db
+
+# Environment variables
 .env
-image-feed.sqlite3
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/

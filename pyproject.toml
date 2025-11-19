@@ -1,5 +1,5 @@
 [project]
-name = "image-feed-api"
+name = "image-feed-with-jwt"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,5 +9,10 @@ dependencies = [
     "fastapi>=0.121.2",
     "fastapi-users[sqlalchemy]>=15.0.1",
     "imagekitio>=4.2.0",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "streamlit>=1.51.0",
     "uvicorn[standard]>=0.38.0",
+    "watchdog>=6.0.0",
 ]
